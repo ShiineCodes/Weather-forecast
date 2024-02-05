@@ -1,0 +1,154 @@
+body {
+  background-color: rgb(181, 211, 197);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.app {
+  background-image: url(https://cdn.stocksnap.io/img-thumbs/960w/soft-flower_FSFSQSMAOL.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  border-radius: 15px;
+  margin: 45px auto;
+  padding: 30px 30px 10px 30px;
+  max-width: 550px;
+  max-height: 1000px;
+}
+
+a {
+  color: #fafafc;
+}
+header {
+  border-bottom: 1px solid #f9f7fe;
+  padding: 0 0 30px 0;
+}
+.search-form {
+  display: flex;
+  gap: 5px;
+}
+.search-form-input {
+  background-color: #f9f7fe;
+  border: none;
+  border-radius: 6px;
+  width: 80%;
+  font-size: 16px;
+  padding: 15px 20px;
+}
+
+.search-form-button {
+  background: #48c088;
+  padding: 15px 30px;
+  border: none;
+  font-size: 16px;
+  margin-left: 5px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+.search-form-button:hover {
+  background: rgb(65, 133, 65);
+}
+main {
+  padding: 30px 0;
+}
+
+.weather-app-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather-app-city {
+  margin: 0;
+  font-size: 38px;
+  line-height: 48px;
+}
+
+.weather-app-details {
+  font-size: 16px;
+  color: rgba(14, 12, 24, 0.692);
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.weather-app-details strong {
+  color: #0e0d0d;
+}
+
+.weather-app-temperature-container {
+  display: flex;
+}
+
+.weather-app-icon {
+  font-size: 44px;
+  margin-top: 22px;
+}
+
+.weather-app-temperature {
+  font-size: 88px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.weatehr-app-unit {
+  margin-top: 16px;
+  font-size: 28px;
+}
+
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  transition: all 0.3s ease-in;
+}
+
+.weather-forecast-date {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.788);
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.weather-forecast-icon {
+  width: 88px;
+  height: 88px;
+  display: block;
+  margin: 0 auto;
+}
+.weather-forecast-temperatures {
+  text-align: center;
+  color: #0a0a0ade;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.weather-forecast-temperature {
+  padding: 0 10px;
+}
+.weather-forecast-day {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1rem;
+  transition: all 0.3s ease-in;
+  box-sizing: border-box;
+  margin: 0;
+}
+.weather-forecast-day:hover {
+  transform: scale(1.1);
+  background-color: #ffffff9f;
+  color: #222831;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+}
+
+footer {
+  border-top: 1px solid #f9f7fe;
+  padding: 30px 0 0 0;
+  text-align: center;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+}
